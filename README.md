@@ -66,7 +66,8 @@ An Autonomous smart Luggage Bag project
                    │  GPIO + CSI Camera
 ┌──────────────────┴──────────────────────────────┐
 │           Hardware Layer                        │
-│    Camera Module  ·  L298N Driver  ·  DC Motors │
+│    Camera Module  ·  L298N Driver  ·  DC Motors |
+│    GSM GPS MODULE w Antenna . 120dB siren  ESP32|
 └─────────────────────────────────────────────────┘
 ```
 
@@ -101,6 +102,7 @@ An Autonomous smart Luggage Bag project
 ### Prerequisites
 - Raspberry Pi 5 8Gb min
 - Raspberry Pi Camera Module v3
+- MCU (ESP32)
 - L298N Motor Driver + 2× DC Motors
 - GSM, GPS module 
 - Node.js 18+ and Python 3.9+
